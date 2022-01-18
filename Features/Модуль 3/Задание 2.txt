@@ -1,0 +1,33 @@
+1. _970001 filling in test data base
+Не смогли открыть гиперссылку.
+Причина:
+Ошибка проведения документов на предыдущем шаге, осталось открытым окно с ошибкой.
+
+2. _015450 check message output for SO when trying to create a purchase order/SC
+Причина:
+В открытой форме с предыдущего шага ожидалось 0 строк, но присутствует 2.
+
+3. _0154149 create Cash statement
+Не удалось перейти к строке таблицы "List".
+Причина:
+Таблицы "List" - нет, присутсвует "ItemList".
+
+4. _092003 check serial lot number in the Retail return receipt
+Таблица не соответствует эталону.
+Причина:
+В колонке Branch отсутсвуют значения.
+
+5. _024027 cancel line in the SO and create SI
+Не найдена кнопка Sales invoice.
+Причина:
+Не удалось провести документ с предыдущего шага и форма заказа осталась незакрытой.
+
+6. _024004 create SI using form link/unlink
+Не удалось перейти на требуемую строку в таблице BasisesTree.
+Причина:
+В колонке Quantity значение было 5, ожидалось 7.
+
+7. _2060018 check link form in the PI with 2 lines with the same items
+Не удалось перейти на требуемую строку в таблице BasisesTree.
+Причина:
+Строки с значениями | 'TRY'      | '100,00' | '10,000'   | 'Dress (S/Yellow)' | 'pcs'  | - нет
